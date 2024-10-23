@@ -1,0 +1,73 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ContactAddress": {
+      "type": "text"
+    },
+    "NavLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "NavLinkHeading": {
+      "type": "string"
+    },
+    "DownloadAppHeading": {
+      "type": "string"
+    },
+    "AppStoreImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "GooglePlayImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "FooterLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CopyrightText": {
+      "type": "string"
+    },
+    "ContactDetails": {
+      "type": "richtext"
+    },
+    "FooterFullWidthImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

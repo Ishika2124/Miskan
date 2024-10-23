@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_for_sales_contact_for_sales_contacts",
+  "info": {
+    "displayName": "ForSalesContact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

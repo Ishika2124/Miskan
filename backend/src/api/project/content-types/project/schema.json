@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Projects",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProjectTitle": {
+      "type": "string"
+    },
+    "ProjectDescription": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ProjectStatus": {
+      "type": "string"
+    },
+    "ProjectGallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider"
+    },
+    "ProjectDetailInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-with-description.heading-with-description"
+    },
+    "ProjectInfoHeading": {
+      "type": "string"
+    },
+    "ProjectInfoSubheading": {
+      "type": "string"
+    },
+    "TypeHeading": {
+      "type": "string"
+    },
+    "TypeContent": {
+      "type": "string"
+    },
+    "PriceHeading": {
+      "type": "string"
+    },
+    "PriceContent": {
+      "type": "string"
+    },
+    "SizeHeading": {
+      "type": "string"
+    },
+    "SizeContent": {
+      "type": "string"
+    },
+    "AdditionalInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-with-description.heading-with-description"
+    },
+    "ForSalesContactSec": {
+      "type": "component",
+      "repeatable": false,
+      "component": "for-sales-contact.for-sales-contact"
+    }
+  }
+}

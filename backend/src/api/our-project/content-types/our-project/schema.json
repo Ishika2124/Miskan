@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_projects",
+  "info": {
+    "singularName": "our-project",
+    "pluralName": "our-projects",
+    "displayName": "OurProject",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ContactSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "for-sales-contact.for-sales-contact"
+    },
+    "OurProjectBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slider.slider"
+    }
+  }
+}

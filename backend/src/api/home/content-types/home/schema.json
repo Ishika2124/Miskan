@@ -1,0 +1,89 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerSlider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider"
+    },
+    "IntroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-with-description.heading-with-description"
+    },
+    "IntroButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "IntroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "FullwidthMainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ProjectHeadingWithDesc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading-with-description.heading-with-description"
+    },
+    "ProjectSlider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider"
+    },
+    "DownloadAppSec": {
+      "type": "component",
+      "repeatable": false,
+      "component": "download-app.download-app"
+    },
+    "SalesFullWidthImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ForSalesContact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "for-sales-contact.for-sales-contact"
+    },
+    "ProjectSliderCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}
